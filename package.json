@@ -26,8 +26,7 @@
     "url": "https://github.com/KanoComputing/nodebb-plugin-s3-uploads/issues"
   },
   "dependencies": {
-    "aws-sdk": "~2.0.0-rc9",
-    "uuid": "~1.4.1",
+    "request": "^2.87.0",
     "mime": "~1.2.11"
   }
 }
