@@ -14,7 +14,7 @@ Modify your config.json
 ```json
 {
   "...": "...",
-  "oauth": {
+  "chevereto": {
     "site_url": "https://example.com",
     "key": "your_api_key"
   },
