@@ -1,29 +1,29 @@
 {
-  "name": "nodebb-plugin-s3-uploads",
-  "version": "0.2.0",
-  "description": "A plugin for NodeBB to take file uploads and store them on S3",
+  "name": "nodebb-plugin-chevereto",
+  "version": "0.2.1",
+  "description": "A plugin for NodeBB to take image uploads and store them on Chevereto Website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/KanoComputing/nodebb-plugin-s3-uploads.git"
+    "url": "https://github.com/MoeNetwork/nodebb-plugin-chevereto.git"
   },
   "keywords": [
     "nodebb",
-    "s3",
-    "aws",
+    "chevereto",
+    "image",
     "plugin",
     "uploads"
   ],
-  "author": "Micheil Smith <micheil@kano.me>",
+  "author": "Balthild <ibalthild@gmail.com>",
   "contributors": [
-    "Barış Soner Uşaklı <barisusakli@gmail.com>"
+    "Sakura <admin@kotori.net>"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/KanoComputing/nodebb-plugin-s3-uploads/issues"
+    "url": "https://github.com/MoeNetwork/nodebb-plugin-chevereto/issues"
   },
   "dependencies": {
     "request": "^2.87.0",
