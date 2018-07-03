@@ -21,10 +21,12 @@ var mime = require("mime"),
         return err;
     }
 
-    plugin.handleUpload = function (image, callback) {
-        if(!image || !image.path){
-            winston.error(image);
-            return callback(makeError("Invalid image data from plugin hook 'filter:uploadImage'"));
+    plugin.handleUpload = function (data, callback) {
+        var image = data.image;
+        var type = image.url ? 'url' : 'file';
+
+        if (type === 'file' && !image.path) {
+            return callback(makeError('Invalid image path'));
         }
 
         request.post({
